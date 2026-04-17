@@ -1,6 +1,6 @@
 # Retail Sales Analytics Platform using BigQuery & Power BI
 
-## 🔹 Project Overview
+## Project Overview
 
 This project presents an end-to-end analytics solution built on **Google BigQuery** and **Power BI** to analyze retail sales performance, customer behavior, and product profitability.
 
@@ -8,7 +8,7 @@ The system integrates data modeling, SQL-based transformations, and interactive 
 
 ---
 
-## 🔹 Architecture
+## Architecture
 
 Raw Data → Data Cleaning → Enrichment → Star Schema (Fact & Dimension Tables) → Analytics Layer → Power BI Dashboard
 
@@ -18,7 +18,7 @@ Raw Data → Data Cleaning → Enrichment → Star Schema (Fact & Dimension Tabl
 
 ---
 
-## 🔹 Tech Stack
+## Tech Stack
 
 - Google BigQuery (Data Warehouse)
 - SQL (Data Modeling & Transformations)
@@ -26,7 +26,7 @@ Raw Data → Data Cleaning → Enrichment → Star Schema (Fact & Dimension Tabl
 - Python (optional – for data ingestion/processing)
 ---
 
-## 🔹 Key Features
+## Key Features
 
 - - Designed star schema with fact and dimension tables for scalable analytics
 - Implemented partitioning and clustering in BigQuery for optimized query performance
@@ -35,9 +35,9 @@ Raw Data → Data Cleaning → Enrichment → Star Schema (Fact & Dimension Tabl
 - Integrated time-series forecasting using Power BI
 ---
 
-## 🔹Dashboard Highlights
+## Dashboard Highlights
 
-### 1️⃣ Sales Performance Overview
+### 1️. Sales Performance Overview
 
 - KPI tracking (Revenue, Profit, Orders, Margin)
 - Trend analysis
@@ -46,7 +46,7 @@ Raw Data → Data Cleaning → Enrichment → Star Schema (Fact & Dimension Tabl
 
 ---
 
-### 2️⃣ Growth & Trend Analysis
+### 2️. Growth & Trend Analysis
 
 - Monthly sales and profit trends
 - Month-over-month growth analysis
@@ -54,7 +54,7 @@ Raw Data → Data Cleaning → Enrichment → Star Schema (Fact & Dimension Tabl
 
 ---
 
-## 🔹 Key Insights
+## Key Insights
 
 - Sales increased by over 90% between 2011 and 2014
 - Consumer segment contributes the highest share of revenue
@@ -63,7 +63,7 @@ Raw Data → Data Cleaning → Enrichment → Star Schema (Fact & Dimension Tabl
 
 ---
 
-## 🔹 Dashboard Preview
+## Dashboard Preview
 ###  Sales Performance Overview Page
 ![Overview](dashboard/screenshots/Page1.png)
 
