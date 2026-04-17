@@ -1,95 +1,66 @@
-# Superstore Sales & Demand Forecasting Dashboard – Power BI
+# Retail Sales Analytics Platform using BigQuery & Power BI
 
 ## 🔹 Project Overview
 
-This project presents an end-to-end **Sales & Demand Forecasting Dashboard** built using **Power BI**.  
-The dashboard analyzes multi-year retail sales data to uncover seasonality patterns, regional performance drivers, and forecast future demand to support inventory planning and revenue optimization.
+This project presents an end-to-end analytics solution built on **Google BigQuery** and **Power BI** to analyze retail sales performance, customer behavior, and product profitability.
+
+The system integrates data modeling, SQL-based transformations, and interactive dashboarding to deliver actionable business insights.
 
 ---
 
-## 🔹 Business Objectives
+## 🔹 Architecture
 
-- Identify revenue and profit growth trends (2011–2014)
-- Detect seasonal demand spikes
-- Analyze regional and product-level revenue concentration
-- Forecast future sales with confidence intervals
-- Provide actionable insights for strategic planning
+Raw Data → Data Cleaning → Enrichment → Star Schema (Fact & Dimension Tables) → Analytics Layer → Power BI Dashboard
+---
+
+## 🔹 Tech Stack
+
+- Google BigQuery (Data Warehouse)
+- SQL (Data Modeling & Transformations)
+- Power BI (Visualization & Dashboarding)
+- Python (optional – for data ingestion/processing)
+---
+
+## 🔹 Key Features
+
+- - Designed star schema with fact and dimension tables for scalable analytics
+- Implemented partitioning and clustering in BigQuery for optimized query performance
+- Built analytics layer tables for business-ready insights
+- Developed interactive Power BI dashboard with KPI tracking, growth analysis, and segmentation
+- Integrated time-series forecasting using Power BI
+---
+
+## 🔹Dashboard Highlights
+
+### 1️⃣ Sales Performance Overview
+
+- KPI tracking (Revenue, Profit, Orders, Margin)
+- Trend analysis
+- Segment and category insights
+- Business findings summary
 
 ---
 
-## 🔹 Data Model
+### 2️⃣ Growth & Trend Analysis
 
-- Implemented **Star Schema** (Fact + Date Dimension)
-- Built custom **Date Table using DAX**
-- Established one-to-many relationship for time intelligence
-
----
-
-## 🔹 Key DAX Measures
-
-- **Total Revenue**
-- **Total Profit**
-- **Total Quantity**
-- **YoY Growth %**
-- **3-Month Moving Average**
-- Time Intelligence functions:
-  - `SAMEPERIODLASTYEAR`
-  - `DATESINPERIOD`
-
----
-
-## 🔹 Dashboard Pages
-
-### 1️⃣ Executive Overview
-
-- KPI summary cards
-- Revenue trend with moving average
-- Regional revenue distribution
-- Top-performing products
-- Insight commentary section
-
----
-
-### 2️⃣ Demand & Seasonality Analysis
-
-- Monthly revenue breakdown
-- Year-over-year trend comparison
-- Built-in Power BI forecasting with confidence bands
-- Discount vs Revenue impact analysis
+- Monthly sales and profit trends
+- Month-over-month growth analysis
+- Sales vs profit relationship (scatter analysis)
 
 ---
 
 ## 🔹 Key Insights
 
-- Revenue shows steady growth from 2011–2014
-- Central region contributes highest revenue (~28%)
-- Clear Q4 seasonal demand spike
-- Revenue concentration suggests diversification opportunities
-
----
-
-## 🔹 Tools & Technologies
-
-- Power BI Desktop
-- DAX (Time Intelligence, Moving Averages)
-- Data Modeling (Star Schema Design)
-
----
-
-## 🔹 Business Impact
-
-This dashboard demonstrates how data-driven forecasting and visualization can improve:
-
-- Inventory planning
-- Regional diversification strategy
-- Marketing campaign timing
-- Margin optimization decisions
+- Sales increased by over 90% between 2011 and 2014
+- Consumer segment contributes the highest share of revenue
+- Certain high-revenue categories operate at lower margins
+- Seasonal peaks indicate potential demand-driven opportunities
 
 ---
 
 ## 🔹 Dashboard Preview
-###  Executive Overview Page
-![Dashboard Overview](dashboard_screenshots/Executive%20Overview.png)
+###  Sales Performance Overview Page
+![Overview](dashboard/screenshots/page1.png)
 
-###  Demand Seasonality Page
-![Demand & Seasonality](dashboard_screenshots/Demand%20%26%20Seasonality.png)
+### Growth & Trend Analysis Page
+![Demand & Seasonality](dashboard/screenshots/page2.png)
