@@ -11,6 +11,11 @@ The system integrates data modeling, SQL-based transformations, and interactive 
 ## 🔹 Architecture
 
 Raw Data → Data Cleaning → Enrichment → Star Schema (Fact & Dimension Tables) → Analytics Layer → Power BI Dashboard
+
+### Star Schema and Analytics data model
+![Overview](architecture.png)
+
+
 ---
 
 ## 🔹 Tech Stack
