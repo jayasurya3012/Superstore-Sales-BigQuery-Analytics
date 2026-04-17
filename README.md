@@ -65,7 +65,7 @@ Raw Data → Data Cleaning → Enrichment → Star Schema (Fact & Dimension Tabl
 
 ## 🔹 Dashboard Preview
 ###  Sales Performance Overview Page
-![Overview](dashboard/screenshots/page1.png)
+![Overview](./dashboard/screenshots/page1.png)
 
 ### Growth & Trend Analysis Page
-![Demand & Seasonality](dashboard/screenshots/page2.png)
+![Demand & Seasonality](./dashboard/screenshots/page2.png)
